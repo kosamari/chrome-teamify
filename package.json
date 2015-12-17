@@ -1,0 +1,15 @@
+{
+  "name": "Chrome-Teamify",
+  "version": "1.0.0",
+  "description": "Be part of cool Chrome team!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kosamari",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "jquery.facedetection": "^2.0.1"
+  }
+}

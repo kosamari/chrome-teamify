@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head lang='en'>
+    <meta charset='UTF-8'>
+    <title>Chrome Teamify</title>
+
+    <link rel='stylesheet' type='text/css' href='assets/styles/index.css'  />
+  </head>
+
+  <body>
+    <h1>Chrome Teamify</h1>
+    <p>Be part of cool Chrome team!! <br> (Made by <a href="https://twitter.com/kosamari">@kosamari</a>.  Fork of  <a href="http://philduffy.github.io/baroquegrammer/">baroquegrammer</a> by <a href="https://twitter.com/willmanduffy">@willmanduffy</a>.)</p>
+    <p>Original photo from <a href="https://twitter.com/googledevs/status/677580186137808896">this tweet by @googledevs</a></p>
+    <form>
+      <input type='file' id='image-file-field' name='foo'>
+      <img id='image-preview' class='image-preview'></img>
+    </form>
+
+    <div id='image-container' class='image-container'>
+      <div class='parent-target' id='parent-target'>
+        <div class='image-target' id='image-target'>
+          <img id='image-face' class='image-face'>
+        </div>
+      </div>
+      <img src='assets/images/jake.png' class='main-image' id='main-image'>
+    </div>
+
+    <!-- Include some chill JavaScript dependencies here y'all -->
+    <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='node_modules/jquery.facedetection/dist/jquery.facedetection.min.js'></script>
+
+    <script src='assets/js/index.js'></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.image-container {
+  position: relative;
+}
+
+.image-face {
+  transform-origin: top left;
+}
+
+.image-preview {
+  display: none;
+}
+
+.image-target {
+  position: absolute;
+  z-index: 50;
+}
+
+.parent-target {
+  position: absolute;
+  overflow: hidden;
+  z-index: 80;
+}
+
+
+.main-image {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
